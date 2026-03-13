@@ -1,0 +1,9 @@
+---
+import GalleryGrid from "../components/GalleryGrid";
+import { artworks } from "../data/artworks";
+---
+
+<main class="max-w-5xl mx-auto p-8">
+  <h1 class="text-3xl mb-6">Gallery</h1>
+  <GalleryGrid client:load artworks={artworks} />
+</main>
