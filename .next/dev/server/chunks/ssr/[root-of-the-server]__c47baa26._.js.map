@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Office/blossomandsculpture/src/app/collections/art-prints/page.jsx"],"sourcesContent":["/* import artworks from \"../../data/artworks.json\"; */\r\n/* import { GalleryGrid } from \"../../components/gallery-grid\"; */\r\n\r\nexport default function ArtPrintsPage() {\r\n  return (\r\n    <main>\r\n      <h1>Art Prints</h1>\r\n      {/* <GalleryGrid artworks={artworks} /> */}\r\n    </main>\r\n  );\r\n}\r\n\r\n"],"names":[],"mappings":"AAAA,oDAAoD,GACpD,gEAAgE;;;;;;AAEjD,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAIV"}}]
+}

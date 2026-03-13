@@ -1,0 +1,16 @@
+{
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/355612774f442330-s.p.549dd1ea.woff2"
+    ],
+    "[project]/src/app/collections/art-prints/page": [
+      "static/media/355612774f442330-s.p.549dd1ea.woff2"
+    ],
+    "[project]/src/app/page": [
+      "static/media/355612774f442330-s.p.549dd1ea.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
