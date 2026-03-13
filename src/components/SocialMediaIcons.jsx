@@ -11,7 +11,7 @@ const socialLinks = [
 
 const SocialIconsComponent = () => {
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex items-center gap-0.5 sm:gap-1.5">
       {socialLinks.map((link) => (
         <SocialIcon
           key={link.label}
