@@ -11,7 +11,7 @@ const socialLinks = [
 
 const SocialIconsComponent = () => {
   return (
-    <div className="flex items-center gap-0.5 sm:gap-1.5">
+    <div className="flex items-center">
       {socialLinks.map((link) => (
         <SocialIcon
           key={link.label}
@@ -22,7 +22,7 @@ const SocialIconsComponent = () => {
           bgColor="transparent"
           fgColor="#1f2937"
           style={{ height: 32, width: 32 }}
-          className="opacity-80 transition-opacity hover:opacity-100"
+          className="-ml-1 max-[399px]:-ml-[10px] opacity-80 transition-opacity first:ml-0 hover:opacity-100"
         />
       ))}
     </div>

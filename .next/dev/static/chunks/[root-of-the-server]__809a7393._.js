@@ -32,7 +32,7 @@ const socialLinks = [
 ];
 const SocialIconsComponent = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex items-center gap-0.5 sm:gap-1.5",
+        className: "flex items-center",
         children: socialLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$social$2d$icons$2f$dist$2f$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SocialIcon"], {
                 url: link.url,
                 label: link.label,
@@ -44,7 +44,7 @@ const SocialIconsComponent = ()=>{
                     height: 32,
                     width: 32
                 },
-                className: "opacity-80 transition-opacity hover:opacity-100"
+                className: "-ml-1 max-[399px]:-ml-[10px] opacity-80 transition-opacity first:ml-0 hover:opacity-100"
             }, link.label, false, {
                 fileName: "[project]/src/components/SocialMediaIcons.jsx",
                 lineNumber: 16,
@@ -145,7 +145,7 @@ function SiteTitleBar() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                         alt: "Logo",
-                        className: "h-[2.667rem] w-auto sm:h-16"
+                        className: "h-[2.667rem] w-auto max-[399px]:h-[1.778rem] sm:h-16"
                     }, void 0, false, {
                         fileName: "[project]/src/components/SiteTitleBar.jsx",
                         lineNumber: 18,
@@ -157,7 +157,7 @@ function SiteTitleBar() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ephesis_2a9f8e2b$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].className} text-3xl sm:text-4xl text-center text-stone-800`,
+                    className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ephesis_2a9f8e2b$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].className} text-2xl sm:text-3xl md:text-4xl text-center text-stone-800`,
                     children: "Blossom and Sculpture"
                 }, void 0, false, {
                     fileName: "[project]/src/components/SiteTitleBar.jsx",
@@ -172,7 +172,7 @@ function SiteTitleBar() {
                             href: "#",
                             className: "",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiShoppingCart"], {
-                                className: "h-8 w-auto m-1"
+                                className: "m-1 h-8 w-auto max-[399px]:h-[1.333rem]"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/SiteTitleBar.jsx",
                                 lineNumber: 23,
