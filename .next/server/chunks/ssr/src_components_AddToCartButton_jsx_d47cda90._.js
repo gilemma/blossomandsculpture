@@ -1,0 +1,3 @@
+module.exports=[5951,a=>{"use strict";var b=a.i(87924),c=a.i(72131),d=a.i(99242);function e({slug:a}){let{addItem:e}=(0,d.useCart)(),[f,g]=(0,c.useState)(!1);return(0,b.jsx)("button",{type:"button",onClick:()=>{e(a),g(!0)},className:"inline-flex min-h-12 items-center justify-center rounded-sm bg-stone-800 px-6 text-sm uppercase tracking-[0.16em] text-stone-50 transition hover:bg-stone-700",children:f?"Added to cart":"Add to cart"})}a.s(["default",()=>e])}];
+
+//# sourceMappingURL=src_components_AddToCartButton_jsx_d47cda90._.js.map

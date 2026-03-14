@@ -1,3 +1,5 @@
 {
+  "/cart/page": "app/cart/page.js",
+  "/collections/art-prints/[slug]/page": "app/collections/art-prints/[slug]/page.js",
   "/collections/art-prints/page": "app/collections/art-prints/page.js"
 }

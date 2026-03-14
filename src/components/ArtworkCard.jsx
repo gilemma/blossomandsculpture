@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function ArtworkCard({ art }) {
   return (
-    <div className="group cursor-pointer">
+    <Link href={`/collections/art-prints/${art.slug}`} className="group block cursor-pointer">
 
       <div className="relative aspect-[4/5] overflow-hidden bg-stone-100">
         <Image
@@ -19,6 +20,6 @@ export default function ArtworkCard({ art }) {
         <p className="mt-1 text-sm text-stone-500">${art.price}</p>
       </div>
 
-    </div>
+    </Link>
   );
 }

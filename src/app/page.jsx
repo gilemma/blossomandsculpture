@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function HomePage() {
-  return <main>Next.js is working.</main>;
+  redirect("/collections/art-prints");
 }

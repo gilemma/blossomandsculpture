@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "9c53ad182b9aa57a7304bed25305151f",
-    "previewModeSigningKey": "9d1e62187290a0605e6e483bd7d7119824b75502fb5698514eca7ff2bfd6e739",
-    "previewModeEncryptionKey": "11a664c31da15492d28791b475c0c027b229938bfc112c0562495858cebffe8a"
-  }
-}
+{"version":4,"routes":{"/collections/art-prints/abstract-horizon":{},"/collections/art-prints/urban-vibes":{},"/collections/art-prints/ethereal-dream":{},"/collections/art-prints/neon-nights":{},"/collections/art-prints/nature-whisper":{},"/collections/art-prints/cosmic-pulse":{},"/collections/art-prints/serenity":{}},"dynamicRoutes":{"/collections/art-prints/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/collections/art-prints/[slug]","routeRegex":"^\\/collections\\/art\\-prints\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"ae27d4e5462d53b9549f485c87c3e7d6","previewModeSigningKey":"3caab17c93ad569fa8b8d8fb683b22bedc380b9cbbfd4356b24c41af62edb39b","previewModeEncryptionKey":"cde0a792796ea90c0cf21b8f1824ea6c21d17bdf86455e48c088ce2547487c2f"}}

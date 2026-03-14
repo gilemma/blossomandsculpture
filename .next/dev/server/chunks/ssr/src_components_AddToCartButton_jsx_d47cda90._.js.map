@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Office/blossomandsculpture/src/components/AddToCartButton.jsx"],"sourcesContent":["\"use client\";\n\nimport { useState } from \"react\";\nimport { useCart } from \"./cart/CartProvider\";\n\nexport default function AddToCartButton({ slug }) {\n  const { addItem } = useCart();\n  const [hasAdded, setHasAdded] = useState(false);\n\n  const handleClick = () => {\n    addItem(slug);\n    setHasAdded(true);\n  };\n\n  return (\n    <button\n      type=\"button\"\n      onClick={handleClick}\n      className=\"inline-flex min-h-12 items-center justify-center rounded-sm bg-stone-800 px-6 text-sm uppercase tracking-[0.16em] text-stone-50 transition hover:bg-stone-700\"\n    >\n      {hasAdded ? \"Added to cart\" : \"Add to cart\"}\n    </button>\n  );\n}"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKe,SAAS,gBAAgB,EAAE,IAAI,EAAE;IAC9C,MAAM,EAAE,OAAO,EAAE,GAAG,IAAA,qJAAO;IAC3B,MAAM,CAAC,UAAU,YAAY,GAAG,IAAA,iNAAQ,EAAC;IAEzC,MAAM,cAAc;QAClB,QAAQ;QACR,YAAY;IACd;IAEA,qBACE,8OAAC;QACC,MAAK;QACL,SAAS;QACT,WAAU;kBAET,WAAW,kBAAkB;;;;;;AAGpC"}}]
+}
